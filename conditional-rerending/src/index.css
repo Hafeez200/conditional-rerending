@@ -1,0 +1,39 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+  color: #f0f0f0;
+  margin-bottom: 20px;
+  background-color: rgb(34, 109, 134);
+  border-radius: 4px;
+  width: 220px;
+  height: 80px;
+}
+.log-in,
+.log-out {
+  text-align: center;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(34, 109, 134);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+}
+
+button:hover {
+  background-color: rgb(64, 119, 160);
+}
